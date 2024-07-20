@@ -1,5 +1,5 @@
 # Use the latest Ubuntu image
-FROM ubuntu:latest
+FROM ubuntu:oracular-20240617
 
 # Update and install required packages
 RUN apt-get update && apt-get install -y \
